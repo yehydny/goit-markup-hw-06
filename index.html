@@ -58,6 +58,107 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="burger-btn" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-icon_burger_menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>
+            <svg class="icon_close" width="8" height="8">
+              <use href="./images/icons.svg#icon-icon_close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-ul">
+              <li>
+                <a href="./index.html" class="mobile-menu-navigation current"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="" class="mobile-menu-navigation">Portfolio</a></li>
+              <li><a href="" class="mobile-menu-navigation">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-address">
+            <ul class="mobile-menu-contacts-list">
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-address-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-menu-address-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-links">
+            <li class="mobile-menu-social-icon">
+              <a
+                href="https://www.instagram.com/"
+                class="mobile-menu-social-link"
+              >
+                <svg
+                  class="mobile-menu-social-icon-item"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-icon_instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-icon">
+              <a
+                href="https://www.twitter.com/"
+                class="mobile-menu-social-link"
+              >
+                <svg
+                  class="mobile-menu-social-icon-item"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-icon_twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-icon">
+              <a
+                href="https://www.facebook.com/"
+                class="mobile-menu-social-link"
+              >
+                <svg
+                  class="mobile-menu-social-icon-item"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-icon_facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-icon">
+              <a
+                href="https://www.linkedin.com/"
+                class="mobile-menu-social-link"
+              >
+                <svg
+                  class="mobile-menu-social-icon-item"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-icon_linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -68,7 +169,9 @@
           <h1 class="page-title page-title-section">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="order-button">Order Service</button>
+          <button type="button" class="order-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -83,7 +186,7 @@
                   <use href="./images/icons.svg#icon-icon_antenna"></use>
                 </svg>
               </div>
-              <h3 class="class-h-three">Strategy</h3>
+              <h3 class="class-h-three class-h-three-advantages">Strategy</h3>
               <p class="paragraph paragraph-styles">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -95,7 +198,9 @@
                   <use href="./images/icons.svg#icon-icon_clock"></use>
                 </svg>
               </div>
-              <h3 class="class-h-three">Punctuality</h3>
+              <h3 class="class-h-three class-h-three-advantages">
+                Punctuality
+              </h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -107,7 +212,7 @@
                   <use href="./images/icons.svg#icon-icon_diagram"></use>
                 </svg>
               </div>
-              <h3 class="class-h-three">Diligence</h3>
+              <h3 class="class-h-three class-h-three-advantages">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
@@ -119,7 +224,9 @@
                   <use href="./images/icons.svg#icon-icon_astronaut"></use>
                 </svg>
               </div>
-              <h3 class="class-h-three">Technologies</h3>
+              <h3 class="class-h-three class-h-three-advantages">
+                Technologies
+              </h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -145,7 +252,7 @@
                 <h3 class="class-h-three employer-name-header">
                   Mark Guerrero
                 </h3>
-                <p class="paragraph profession-paragraph">Product Designer</p>
+                <p class="profession-paragraph">Product Designer</p>
                 <ul class="our-team-social-links">
                   <li class="social-icon">
                     <a href="https://www.instagram.com/" class="social-link">
@@ -189,7 +296,7 @@
               />
               <div class="employer-profession">
                 <h3 class="class-h-three employer-name-header">Tom Ford</h3>
-                <p class="paragraph profession-paragraph">Frontend Developer</p>
+                <p class="profession-paragraph">Frontend Developer</p>
                 <ul class="our-team-social-links">
                   <li class="social-icon">
                     <a href="https://www.instagram.com/" class="social-link">
@@ -235,7 +342,7 @@
                 <h3 class="class-h-three employer-name-header">
                   Camila Garcia
                 </h3>
-                <p class="paragraph profession-paragraph">Marketing</p>
+                <p class="profession-paragraph">Marketing</p>
                 <ul class="our-team-social-links">
                   <li class="social-icon">
                     <a href="https://www.instagram.com/" class="social-link">
@@ -281,7 +388,7 @@
                 <h3 class="class-h-three employer-name-header">
                   Daniel Wilson
                 </h3>
-                <p class="paragraph profession-paragraph">UI Designer</p>
+                <p class="profession-paragraph">UI Designer</p>
                 <ul class="our-team-social-links">
                   <li class="social-icon">
                     <a href="https://www.instagram.com/" class="social-link">
@@ -458,7 +565,7 @@
       </section>
     </main>
 
-    <footer class="footer footer-container">
+    <footer class="footer footer-container hidden">
       <div class="div-footer-container">
         <div class="container">
           <a href="./index.html" class="logo-footer logo-footer-container"
@@ -525,9 +632,9 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="popup_close">
+        <button type="button" class="popup_close" data-modal-close>
           <svg class="icon_close" width="8" height="8">
             <use href="./images/icons.svg#icon-icon_close"></use>
           </svg>
@@ -613,5 +720,8 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
