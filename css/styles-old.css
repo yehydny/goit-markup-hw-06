@@ -29,18 +29,6 @@
 }
 
 /* footer styles  */
-.footer-container {
-  padding: 100px 0;
-}
-
-.logo-footer-container {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.paragraph-footer-container {
-  width: 264px;
-}
 
 .our-portfolio-container-name {
   margin-bottom: 8px;
@@ -95,37 +83,9 @@ p {
 }
 
 /* logo in footer*/
-.logo-footer {
-  font-family: var(--second-family);
-
-  font-weight: 700;
-  font-size: 18px;
-
-  /* line-height: 21px; */
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-}
-
-.logo-second-color-footer {
-  color: var(--cloud);
-}
-
-.footer-paragraph {
-  color: var(--cloud);
-}
 
 /* navigation tab in nav */
 
-.footer-paragraph {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--white);
-  margin-bottom: 16px;
-}
 /* ------------------------------ */
 
 /* address in nav */
@@ -227,13 +187,6 @@ p {
   margin-right: 120px;
 }
 
-.footer-social-links {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 8px;
-}
-
 .footer-social-link {
   background-color: var(--iris);
   border-radius: 50%;
@@ -255,34 +208,6 @@ p {
   flex-direction: column;
   width: 453px;
   margin-left: 80px;
-}
-
-.subscribe-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  min-width: 165px;
-  border-radius: 4px;
-  border: none;
-  background: var(--iris);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  cursor: pointer;
-}
-
-.social-icon-item_telegram {
-  fill: var(--cloud);
-  margin-left: 16px;
-}
-
-.footer_subscribe_form {
-  display: flex;
-  gap: 24px;
 }
 
 .footer-email_input {
