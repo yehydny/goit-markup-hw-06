@@ -215,6 +215,7 @@ button {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: var(--slate);
   }
 
   .header-address-link:hover,
@@ -936,10 +937,6 @@ button {
   background-color: var(--ocean);
 }
 
-.social-icon-item {
-  fill: var(--cloud);
-}
-
 /* our team section tablet  */
 @media screen and (min-width: 768px) {
   .our-team-section-item {
@@ -1149,6 +1146,11 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--ocean);
+}
+
 .social-icon-item {
   fill: var(--cloud);
 }
@@ -1181,6 +1183,11 @@ button {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--ocean);
 }
 
 .social-icon-item_telegram {
