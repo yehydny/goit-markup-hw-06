@@ -425,6 +425,17 @@ button {
   margin: auto;
 }
 
+/* high-res mobile  */
+@media (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2x.png);
+  }
+}
+
 .page-title {
   font-family: var(--font-family);
   font-weight: 700;
